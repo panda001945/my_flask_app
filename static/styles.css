@@ -1,0 +1,94 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to right, #43cea2, #185a9d);
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"], input[type="password"], input[type="number"], input[type="file"] {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    background-color: #f7f7f7;
+}
+
+input[type="submit"], button {
+    background-color: #43cea2;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: #185a9d;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 25px;
+    margin: 10px 0;
+}
+
+.progress-bar-fill {
+    height: 25px;
+    background: linear-gradient(to right, #f7971e, #ffd200);
+    border-radius: 25px;
+    text-align: center;
+    color: white;
+    line-height: 25px;
+}
+
+.book-entry {
+    margin-bottom: 20px;
+}
+
+.book-title {
+    font-weight: bold;
+    color: #43cea2;
+}
+
+.pdf-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+#pdf-viewer {
+    width: 100%;
+    height: 600px;
+    border: 1px solid #ccc;
+}
+
+.logout-btn {
+    float: right;
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.logout-btn:hover {
+    background-color: #ff8a80;
+}
