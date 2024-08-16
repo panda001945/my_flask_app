@@ -4,15 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cc4f5ac-8b06-48d3-a83f-2ef4a4c55def" name="Changes" comment="" />
+    <list default="true" id="2cc4f5ac-8b06-48d3-a83f-2ef4a4c55def" name="Changes" comment="incomplete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/panda001945/my_flask_app.git",
+    "accountId": "f7943f2f-0ba5-411b-97b8-dad532b44e16"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -95,6 +107,15 @@
       <option name="presentableId" value="Default" />
       <updated>1723800509294</updated>
     </task>
+    <task id="LOCAL-00001" summary="incomplete">
+      <option name="closed" value="true" />
+      <created>1723811801083</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1723811801083</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +128,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="incomplete" />
+    <option name="LAST_COMMIT_MESSAGE" value="incomplete" />
   </component>
 </project>
